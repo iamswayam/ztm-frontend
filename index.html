@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ZTM</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <form method="POST">
+    <div id="formid" class="boxmodel">
+      <h2>Sign-up</h2>
+      <!-- <img src="https://media.istockphoto.com/vectors/flag-ribbon-welcome-old-school-flag-banner-vector-id1223088904?s=612x612" width="100 px" height="80 px"> -->
+      First Name:<input type="text" name="firstname"><br>
+      Middle Name:<input type="text" name="middlename"><br>
+      Last Name:<input type="text" name="lastname"><br>
+      Email:<input type="email" name="email" required><br>
+      Password:<input type="password" minlength="5" name="password"><br>
+      Birthday:<input type="date" name="birthday"><br>
+      Gender:<br>
+        <input type="radio" name="male">Male<br>
+        <input type="radio" name="female">Female<br>
+        <input type="radio" name="other">Other<br>
+      Broker:
+        <select name="broker">
+        <option value="zerodha">Zerodha</option>
+        <option value="upstox">Upstox</option>
+        </select>
+        <br>
+      <input type="submit" value="Sign-up">
+      <footer>Thanks for being here.</footer>
+    </div>
+  </form>
+</body>
+</html>

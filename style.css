@@ -1,0 +1,50 @@
+
+body {
+  background-image: url(bg.jpg);
+  background-size: cover;
+  font-family: courier;
+  color: #E1E7E7;
+}
+
+h2 {
+  color: #E1E7E7;
+}
+
+form {
+  /* text-align: center; */
+  /* border: 3px dotted rgb(245, 245, 245); */
+  width: 50%;
+  margin-left : 10%;
+  margin-top : 10%;
+  cursor: pointer;
+  display: inline-flexbox;
+}
+
+.webtext {
+  color: yellow;
+}
+
+#formid {
+  color: rgb(247, 247, 242);
+  display: inline-block;
+  border: 3.5px dotted white;
+  padding: 10px 15px;
+  margin: 5px;
+  width: 333px;
+  height: 333px;
+}
+
+img {
+  float: right;
+}
+
+footer {
+  clear: both;
+  text-align: right;
+}
+
+/* .boxmodel {
+  border: 2px solid white;
+  padding: 10px 15px 10px 15px;
+  margin: 5px;
+} */
