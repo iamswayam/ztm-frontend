@@ -1,6 +1,6 @@
 
 body {
-  background-image: url(bg.jpg);
+  background-image: url(images/bg.jpg);
   background-size: cover;
   font-family: courier;
   color: #E1E7E7;
@@ -34,8 +34,20 @@ form {
   height: 333px;
 }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
 img {
-  float: right;
+  width: 215px;
+  height: 160px;
+  transition: all 1s;
+}
+
+img:hover {
+  transform: scale(1.1);
 }
 
 footer {
